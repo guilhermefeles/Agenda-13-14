@@ -74,7 +74,8 @@
                         <HorizontalStackLayout HorizontalOptions="CenterAndExpand">
                             <Label Text="Check-in:" />
                             <DatePicker x:Name="dtpck_checkin"
-                                        Format="dd/MM/yyyy" />
+                                        Format="dd/MM/yyyy"
+                                        DateSelected="OnCheckInChanged" />
                         </HorizontalStackLayout>
 
                         <HorizontalStackLayout HorizontalOptions="CenterAndExpand">
@@ -85,7 +86,7 @@
                     </VerticalStackLayout>
                 </Frame>
 
-                <Button Text="Avançar" />
+                <Button Text="Avançar" Clicked="OnAvancarClicked" />
 
                 <Button Text="Sobre"
                         BackgroundColor="{StaticResource Gray500}"

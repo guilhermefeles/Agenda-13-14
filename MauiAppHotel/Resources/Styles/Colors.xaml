@@ -8,7 +8,7 @@
 
     <Color x:Key="Verde">Green</Color>
     
-    <Color x:Key="Primary">#512BD4</Color>
+    <Color x:Key="Primary">#0B6E4F</Color>
     <Color x:Key="PrimaryDark">#ac99ea</Color>
     <Color x:Key="PrimaryDarkText">#242424</Color>
     <Color x:Key="Secondary">#DFD8F7</Color>
